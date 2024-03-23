@@ -14,22 +14,27 @@ Kubernetes is a platform that can help manage containerized applications at scal
 
 
 1) Improved scalability:
+   
 Kubernetes can automatically scale up or down to meet demand, such as when there are spikes in CPU usage or memory.
 High availability: Kubernetes can help keep applications running despite challenges like failed servers, crashed containers, and traffic spikes.
 
 
 2) Resource efficiency:
+   
 Kubernetes can help optimize hardware usage.
 
 
 3) Self-healing capabilities:
+   
 Kubernetes can perform health checks and enable application self-healing.
 
 
 4) Portability:
+   
 Kubernetes can be used across on-premises and cloud environments, making it easy to move applications between different cloud providers or data centers.
 
 
 5) Support for DevOps, Cloud, and DevSecOps practices:
+    
 Kubernetes can help businesses manage IT workloads efficiently by grouping software into a container cluster that runs on a virtualized host OS.
   
