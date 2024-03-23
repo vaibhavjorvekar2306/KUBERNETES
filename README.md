@@ -78,6 +78,6 @@ Physical or virtual machines that exist between the pod and cluster, host the po
 
 The control plane is the orchestration layer, which acts as the communications director for a Kubernetes cluster.
 
-8) Cluster:
+8) Cluster: 
 A Kubernetes cluster is a group of nodes that run containerized applications, together with a control plane.
 
