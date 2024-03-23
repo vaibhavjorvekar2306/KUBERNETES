@@ -44,7 +44,7 @@ Kubernetes can help businesses manage IT workloads efficiently by grouping softw
    
 
 
--Here's how Kubernetes works:
+--> Here's how Kubernetes works:
   
 1) Networking :
 Kubernetes creates pods and services.
