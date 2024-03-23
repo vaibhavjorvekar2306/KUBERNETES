@@ -48,8 +48,8 @@ Kubernetes can help businesses manage IT workloads efficiently by grouping softw
 2) Kubernetes also uses services to expose one or more pods to the outside world. Services are implemented as load balancers, which can load balance traffic across multiple pods.
 
 
-- Here's how Kubernetes works:
-- 
+-Here's how Kubernetes works:
+  
 1) Networking:
 
 Kubernetes creates pods and services.
@@ -79,6 +79,5 @@ Physical or virtual machines that exist between the pod and cluster, host the po
 The control plane is the orchestration layer, which acts as the communications director for a Kubernetes cluster.
 
 8) Cluster:
-
 A Kubernetes cluster is a group of nodes that run containerized applications, together with a control plane.
 
