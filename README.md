@@ -37,4 +37,48 @@ Kubernetes can be used across on-premises and cloud environments, making it easy
 5) Support for DevOps, Cloud, and DevSecOps practices:
     
 Kubernetes can help businesses manage IT workloads efficiently by grouping software into a container cluster that runs on a virtualized host OS.
-  
+
+
+
+
+* HOW DOES KUBERNETES WORK
+
+1) Kubernetes is an open-source platform that uses pods and services to create networking. A pod is a group of one or more containers that share a network namespace and IP address. Containers within a pod can communicate with each other using localhost, which simplifies port management and container communication.
+   
+2) Kubernetes also uses services to expose one or more pods to the outside world. Services are implemented as load balancers, which can load balance traffic across multiple pods.
+
+
+- Here's how Kubernetes works:
+- 
+1) Networking:
+
+Kubernetes creates pods and services.
+
+2) Resource provisioning:
+
+Kubernetes abstracts machine resources and presents them to workloads using API objects.
+
+3) Pattern:
+
+Kubernetes follows a client-server pattern, with server machines called master nodes and client machines called worker nodes.
+
+4) Pods:
+   
+Each pod is assigned a unique IP address.
+
+5) Containers:
+
+Containers within a pod share the same network namespace, meaning they can communicate with each other using localhost.
+
+6) Nodes:
+
+Physical or virtual machines that exist between the pod and cluster, host the pods.
+
+7) Control plane:
+
+The control plane is the orchestration layer, which acts as the communications director for a Kubernetes cluster.
+
+8) Cluster:
+
+A Kubernetes cluster is a group of nodes that run containerized applications, together with a control plane.
+
